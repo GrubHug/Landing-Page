@@ -5,10 +5,10 @@
     text-align: left;
     background: #171c22;
     color: #f9faf8;
-    font-size: 34px;
+    font-size: 30px;
   }
 
-  img {
+.img2 {
     
     border-radius: 12px;
     display:block;
@@ -19,6 +19,15 @@
     
     
   }
+
+.image1 { align-self:right;
+    display:block;
+    justify-self:right;
+    max-width:300px;
+    max-height:300px;
+    padding:4px;
+
+}
 
 .container { 
     
@@ -31,5 +40,16 @@
 
     
 }
+
+.container-top {
+
+    display:flex;
+    align-content: left;
+    align-items:left;
+    
+    
+
+}
+
 
   
