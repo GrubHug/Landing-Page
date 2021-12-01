@@ -7,3 +7,29 @@
     color: #f9faf8;
     font-size: 34px;
   }
+
+  img {
+    
+    border-radius: 12px;
+    display:block;
+    justify-self:center;
+    max-width: 160px;
+    max-height: 140px;
+    padding: 4px;
+    
+    
+  }
+
+.container { 
+    
+    
+    display:flex;
+    align-content: center;
+    align-items:center;
+    justify-content: center;
+    justify-items: center;
+
+    
+}
+
+  
