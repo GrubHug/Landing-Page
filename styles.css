@@ -18,14 +18,13 @@
     padding: 4px;
     
     
+    
   }
 
-.image1 { align-self:right;
-    display:block;
-    justify-self:right;
-    max-width:300px;
-    max-height:300px;
-    padding:4px;
+.item { 
+    max-width: 100px;
+    max-height: 100px;
+    
 
 }
 
@@ -44,11 +43,10 @@
 .container-top {
 
     display:flex;
-    align-content:space-between;
-    align-items:flex-start;
-    text-align:left;
-    justify-items:left;
-    justify-content:space-between;
+    align-content:center;
+    align-items:stretch;
+    justify-content: right;
+    
     
     
     
@@ -100,10 +98,15 @@
 .footer {
     font-family: Helvetica, sans-serif;
     padding: 30px;
-    text-align: left;
+    text-align: center;
     background: #171c22;
     color: #f9faf8;
     font-size: 12px;
+    justify-content: center;
+}
+
+.custom_case_right img {
+    float:right
 }
   
 
