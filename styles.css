@@ -52,7 +52,7 @@
 }
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/home/hazel/the_odin_project/Project-Landing-Page/Images/header.JPG);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./Images/header.JPG);
     
 }
 
