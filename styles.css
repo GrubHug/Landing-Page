@@ -97,6 +97,8 @@ nav {
     justify-content: space-between;
     background: #312c41ea;
     font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    text-shadow: 1px 1px 0px #171c22;
     
 
       
@@ -109,7 +111,7 @@ body {
 .p2 { font-family: Helvetica, sans-serif;
     padding: 60px;
     text-align: left;
-    background: #1c172265;
+    background: #1c17222d;
     color: #f9faf8;
     font-size: 18px;
     font-style:italic;
@@ -129,7 +131,7 @@ body {
     
     font-size:12px;
     font-family: Arial, Helvetica, sans-serif;
-    color:rgba(94, 122, 36, 0.473);
+    color:rgba(63, 63, 63, 0.055);
     align-self:flex-end;
     margin-right:4px;
     
