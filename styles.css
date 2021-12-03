@@ -52,14 +52,15 @@
     position: sticky;
     margin:0%;
     
-    
-   
-
 }
+
+
+
 .navbar-inner {
     width:100%;
     display:flex;
-    height:max-content;
+    
+    
     
     
 
@@ -88,24 +89,27 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 nav {
-    display:inline-flex;
+    display:flex;
     flex-flow: row nowrap;
     padding:4px; 
     margin:0;
     position:sticky;
-    height:max-content;
-    flex-direction:row;
+    justify-content: space-between;
+    background: #312c41ea;
+    font-family:Arial, Helvetica, sans-serif;
+    
 
       
     
 }
 body {
     margin:0%;
+    background: #ceb3ddbe;
 }
 .p2 { font-family: Helvetica, sans-serif;
     padding: 60px;
     text-align: left;
-    background: #171c227a;
+    background: #1c172265;
     color: #f9faf8;
     font-size: 18px;
     font-style:italic;
@@ -114,20 +118,21 @@ body {
 
 .logo {
     display:flex;
-    float:left;
-    justify-content: flex-start;
+    align-self:flex-start;
+    flex-basis:20%;
 
     
 
 }
 
 #links {
-    float:right;
+    
     font-size:12px;
     font-family: Arial, Helvetica, sans-serif;
     color:rgba(94, 122, 36, 0.473);
-    display:flex;
-    justify-content:right;
+    align-self:flex-end;
+    margin-right:4px;
+    
 
 }
 .clearfix::after {
@@ -154,7 +159,7 @@ body {
     font-family: Helvetica, sans-serif;
     padding: 60px;
     text-align: left;
-    background: #323b6386;
+    background: #323b6393;
     color: #f9faf8;
     font-size: 16px;
     font-weight: bolder;
@@ -166,7 +171,7 @@ body {
     font-family: Helvetica, sans-serif;
     padding: 30px;
     text-align: center;
-    background: #171c22;
+    background:#312c41ea;
     color: #f9faf8;
     font-size: 12px;
     justify-content: center;
